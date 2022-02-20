@@ -101,7 +101,7 @@ buttons = [
           InlineKeyboardButton(
             text="🗣️ Support", url="https://t.me/Foundingtitansupport"),
           InlineKeyboardButton(
-            text="🌐 Nexus Network", url="https://t.me/Nexus_Network",
+            text="🌐 Nexus Network", url="https://t.me/Levi_Support",
     
          ),
     ],
