@@ -78,7 +78,7 @@ def get_readable_time(seconds: int) -> str:
 
 
 PM_START_TEXT = """
- Hey there, I'm [Eren Jaeger](https://telegra.ph/file/06355bb1cd9d0c53d1171.jpg)
+ Hey there, I'm [Captain Levi](https://telegra.ph/file/ef0d2c45b28b977261668.jpg)
 I am an Attack on Titan anime themed group management bot.
 Built by weebs for weebs, I specialize in managing anime eccentric communities.
 """
@@ -92,9 +92,9 @@ buttons = [
    ],
     [      
        InlineKeyboardButton(
-            text="📖 Quick Setup", url="https://t.me/foundingtitanupdates/4"),        
+            text="Off Topic Chat", url="https://t.me/bestwalefriends"),        
           InlineKeyboardButton(
-            text="📋 ChangeLogs", url="https://t.me/FoundingTitanupdates"),
+            text="Our Second Bot", url="https://t.me/GokuTheBot"),
     
    ],
     [      
@@ -108,7 +108,7 @@ buttons = [
 ] 
 
 HELP_STRINGS = """
-Hey there, I'm Eren Jaeger!
+Hey there, I'm Captain Levi!
 To make me functional, make sure that i have enough rights in your group.
 Helpful commands:
 - /start: Starts me! You've probably already used this.
