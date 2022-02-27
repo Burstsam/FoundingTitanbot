@@ -94,12 +94,12 @@ buttons = [
        InlineKeyboardButton(
             text="Off Topic Chat", url="https://t.me/bestwalefriends"),        
           InlineKeyboardButton(
-            text="Our Second Bot", url="https://t.me/GokuTheBot"),
+            text="Akatsuki Clan Owner", url="https://t.me/YahikoAkatsuki9"),
     
    ],
     [      
           InlineKeyboardButton(
-            text="🗣️ Support Outdated", url="https://t.me/Goku_Support"),
+            text="Owner / Founding Titan", url="https://t.me/im_the_ownerr"),
           InlineKeyboardButton(
             text=" Levi Support", url="https://t.me/Levi_Support",
     
@@ -666,7 +666,7 @@ def main():
 
     if SUPPORT_CHAT is not None and isinstance(SUPPORT_CHAT, str):
         try:
-            dispatcher.bot.sendMessage(f"@{SUPPORT_CHAT}", "[I am now online!](https://telegra.ph/file/69db8d7439cd6413bc3a7.mp4)", parse_mode=ParseMode.MARKDOWN)
+            dispatcher.bot.sendMessage(f"@{SUPPORT_CHAT}", "[Levi Is Here To Kill Titans!](https://telegra.ph/file/4aa44e1d32ef567258b39.jpg)", parse_mode=ParseMode.MARKDOWN)
         except Unauthorized:
             LOGGER.warning(
                 "Bot isnt able to send message to support_chat, go and check!",
